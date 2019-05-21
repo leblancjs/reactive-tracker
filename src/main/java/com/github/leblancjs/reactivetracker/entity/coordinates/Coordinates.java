@@ -1,4 +1,4 @@
-package com.github.leblancjs.reactivetracker.coordinates;
+package com.github.leblancjs.reactivetracker.entity.coordinates;
 
 public class Coordinates {
     private final double latitude;

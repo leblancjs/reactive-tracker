@@ -1,4 +1,4 @@
-package com.github.leblancjs.reactivetracker.coordinates;
+package com.github.leblancjs.reactivetracker.entity.coordinates;
 
 import org.junit.Test;
 

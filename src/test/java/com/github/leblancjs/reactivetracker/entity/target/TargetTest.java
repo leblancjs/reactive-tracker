@@ -1,6 +1,6 @@
-package com.github.leblancjs.reactivetracker.target;
+package com.github.leblancjs.reactivetracker.entity.target;
 
-import com.github.leblancjs.reactivetracker.coordinates.Coordinates;
+import com.github.leblancjs.reactivetracker.entity.coordinates.Coordinates;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
