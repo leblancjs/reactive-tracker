@@ -2,7 +2,12 @@ package com.github.leblancjs.reactivetracker.store.event;
 
 import java.util.Objects;
 
-public abstract class Event<Data> {
+/**
+ * A DataStoreEvent represents a change that was made to the contents of a {@link com.github.leblancjs.reactivetracker.store.DataStore data store}.
+ *
+ * @param <Data>
+ */
+public abstract class DataStoreEvent<Data> {
     enum Type {
         DATA_ADDED,
         DATA_REMOVED,
@@ -11,13 +16,13 @@ public abstract class Event<Data> {
 
     private final Data data;
 
-    public Event(final Data data) {
+    public DataStoreEvent(final Data data) {
         this.data = Objects.requireNonNull(data);
     }
 
     @Override
     public String toString() {
-        return "Event{" +
+        return "DataStoreEvent{" +
                 "type=" + getType() +
                 ", data=" + data +
                 '}';
