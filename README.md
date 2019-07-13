@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/leblancjs/reactive-tracker.svg?branch=master)](https://travis-ci.org/leblancjs/reactive-tracker)
+[![codecov](https://codecov.io/gh/leblancjs/reactive-tracker/branch/master/graph/badge.svg)](https://codecov.io/gh/leblancjs/reactive-tracker)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Reactive Tracker
